@@ -15,9 +15,8 @@ meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 meals = ["Gwote","Masa","Tuwo Acha","Fura da Nono","Kunu","Miyan Kuka"]
 
 miya = meals.insert(0,"Miyan taushe")
-cold = meals[1].remove
+meals.remove("Fura da Nono")
 nono = meals[3].remove
-print(meal[2])
-meals.sort()
-
+len(meal) // 2
+sorted(meals)
 print(meals)
