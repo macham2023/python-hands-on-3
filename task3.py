@@ -10,3 +10,9 @@ money = [1000, 1200, 800, 1500, 1100]
 
 → Perform the corrections and computations, and print all results.
 """
+money = [1000, 1200, 800, 1500, 1100]
+print("My money:",money)
+money[2] = 1000
+print(money)
+print("In reverse order:",money[::-1])
+
